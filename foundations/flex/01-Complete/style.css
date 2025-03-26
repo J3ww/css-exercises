@@ -1,0 +1,24 @@
+.container {
+  background: dodgerblue;
+  border: 4px solid midnightblue;
+  width: 400px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* display: flex makes the container a flex container */
+  /* align-items: center centers items vertically */
+  /* justify-content: center centers items horizontally */
+  /* Note: The order of these properties does not matter */
+  /* Note: The container must have a width and height for centering to work */
+  /* Note: The container must have display: flex for centering to work */
+}
+
+.box {
+  background: palevioletred;
+  font-weight: bold;
+  text-align: center;
+  border: 6px solid maroon;
+  width: 80px;
+  height: 80px;
+}

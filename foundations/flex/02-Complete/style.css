@@ -1,0 +1,40 @@
+.header  {
+  font-family: monospace;
+  background: papayawhip;
+}
+
+.logo {
+  font-size: 48px;
+  font-weight: 900;
+  color: tomato;
+  background: white;
+  padding: 4px 32px;
+}
+
+ul {
+  /* this removes the dots on the list items*/
+  list-style-type: none;
+}
+
+a {
+  font-size: 22px;
+  background: white;
+  padding: 8px;
+  /* this removes the line under the links */
+  text-decoration: none;
+}
+
+
+.header {
+  padding: 8px; /* Adds 8px of padding around the header for spacing. */
+  display: flex; /* Defines a flex container, enabling flexbox layout for its children. */
+  align-items: center; /* Aligns items vertically in the center of the container. */
+  justify-content: space-between; /* Distributes items horizontally with space between them. */
+}
+
+body div div ul {
+  display: flex; /* Defines a flex container for the <ul>, enabling flexbox layout for its children. */
+  margin: 0; /* Removes default margin from the <ul>. */
+  padding: 0; /* Removes default padding from the <ul>. */
+  gap: 8px; /* Adds an 8px gap between flex items within the <ul>. */
+}

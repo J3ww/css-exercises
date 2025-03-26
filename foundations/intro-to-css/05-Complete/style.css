@@ -1,0 +1,6 @@
+div p {  /* This selector targets all <p> elements that are descendants of a <div> element */
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
